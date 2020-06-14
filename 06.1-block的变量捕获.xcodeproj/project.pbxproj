@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C1EF29823EA938500B528FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF29723EA938500B528FD /* main.m */; };
+		9C1EF2A123EA9BCA00B528FD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF2A023EA9BCA00B528FD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		9C1EF29423EA938500B528FD /* 06.1-block的变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06.1-block的变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1EF29723EA938500B528FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C1EF29E23EA947600B528FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C1EF29F23EA9BCA00B528FD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C1EF2A023EA9BCA00B528FD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C1EF2A223EA9C9500B528FD /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		9C1EF29623EA938500B528FD /* 06.1-block的变量捕获 */ = {
 			isa = PBXGroup;
 			children = (
+				9C1EF29E23EA947600B528FD /* main.cpp */,
+				9C1EF2A223EA9C9500B528FD /* Person.cpp */,
 				9C1EF29723EA938500B528FD /* main.m */,
+				9C1EF29F23EA9BCA00B528FD /* Person.h */,
+				9C1EF2A023EA9BCA00B528FD /* Person.m */,
 			);
 			path = "06.1-block的变量捕获";
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1EF2A123EA9BCA00B528FD /* Person.m in Sources */,
 				9C1EF29823EA938500B528FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
